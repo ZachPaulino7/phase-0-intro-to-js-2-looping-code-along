@@ -32,4 +32,5 @@ function countDown() {
     while (countDown > -1) {
         console.log(countDown--);
     }
+    return countDown
 }
